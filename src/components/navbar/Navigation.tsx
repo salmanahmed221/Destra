@@ -9,7 +9,7 @@ const Navigation = () => {
   // State to track active link
   const [nav, setNav] = useState(true);
   return (
-    <div className="w-full md:fixed md:bg-black md:z-10">
+    <div className="w-full fixed bg-black z-10">
       <div className=" md:flex justify-between p-5 md:mx-10 items-center">
         {/* name */}
         <div className="flex items-center justify-between">

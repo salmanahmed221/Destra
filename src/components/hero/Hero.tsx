@@ -46,7 +46,11 @@ const Hero = () => {
           </div>
 
           <div className="pt-10">
-            <p className="">Ca: 0xf94e7d0710709388bce3161c32b4eea56d3f91</p>
+            <p className="">
+              Ca: 0xf94e7d0710709388bce3161c32b4eeas56
+              <br className="md:hidden" />
+              <span>d3f91cc</span>
+            </p>
           </div>
         </div>
 

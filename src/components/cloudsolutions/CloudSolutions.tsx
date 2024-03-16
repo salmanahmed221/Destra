@@ -53,11 +53,13 @@ const CloudSolutions = () => {
             </div>
 
             <div
-              className="   p-6 space-y-2  rounded-xl h-[200px]   relative bg-cover bg-center"
+              className="   p-6 space-y-2  rounded-xl h-[200px] mt-4 md:mt-0   relative bg-cover bg-center"
               style={{ backgroundImage: 'url("waves.webp")' }}
             >
-              <p className="text-[22px]">Destra&#39;s ENS Gateway</p>
-              <p className="text-[16px] text-[#8A8F98]">
+              <p className="text-[22px] md:pt-0 pt-5">
+                Destra&#39;s ENS Gateway
+              </p>
+              <p className="text-[16px] text-[#8A8F98] md:pt-0 pt-2">
                 To support Web3 unfriendly browsers like Chrome, Firefox, or
                 Safari
               </p>
