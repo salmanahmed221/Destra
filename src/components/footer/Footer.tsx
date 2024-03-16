@@ -4,7 +4,7 @@ import { TbBrandGithubFilled } from "react-icons/tb";
 import { BsMedium } from "react-icons/bs";
 function Footer() {
   return (
-    <div className="md:flex justify-between md:mx-24 md:mt-32 mt-16 pb-10 p-5 md:p-0">
+    <div className="md:flex justify-between md:mx-24 md:mt-32 mt-16 p-5 md:p-0">
       {/* Left */}
       <div>
         <h3 className="text-2xl font-semibold">Destra Network</h3>
@@ -23,7 +23,7 @@ function Footer() {
           <TbBrandGithubFilled className=" hover:text-red-500" />
           <BsMedium className=" hover:text-red-500" />
         </div>
-        <p className="md:pt-28 pt-10 text-[#848992]">
+        <p className="md:pt-28 pt-10 md:pb-7 text-[#848992]">
           <span className="hover:text-red-500">Contact</span> :
           destranetwork@gmail.com
         </p>
